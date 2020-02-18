@@ -1,7 +1,7 @@
 language: csharp
 mono: alpha
 dotnet: 3.1
-solution: ConsoleAppTest.sln //Виконавчий файл (заміняєте іменем вашого файлу )
-script: //
-- dotnet restore //два пробіла перед командою обов’язково
-- dotnet test //два пробіла перед командою обов’язково
+solution: ConsoleAppTest.sln 
+script:
+- dotnet restore 
+- dotnet test 
